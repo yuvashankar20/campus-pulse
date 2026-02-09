@@ -1,0 +1,501 @@
+student_id,academic_year,major,facility_rated,satisfaction_score,timestamp
+1001,3rd,Mechanical,Sports Center,3,2024-01-01 00:00:00
+1002,4th,Mechanical,Library,5,2024-01-01 01:00:00
+1003,1st,CSE,Sports Center,4,2024-01-01 02:00:00
+1004,3rd,ECE,Library,3,2024-01-01 03:00:00
+1005,3rd,AI&DS,Cafeteria,2,2024-01-01 04:00:00
+1006,4th,CSE,Sports Center,5,2024-01-01 05:00:00
+1007,1st,AI&DS,Library,5,2024-01-01 06:00:00
+1008,1st,AI&DS,Library,3,2024-01-01 07:00:00
+1009,3rd,ECE,Sports Center,3,2024-01-01 08:00:00
+1010,2nd,AI&DS,Cafeteria,4,2024-01-01 09:00:00
+1011,3rd,AI&DS,Cafeteria,1,2024-01-01 10:00:00
+1012,3rd,ECE,Cafeteria,3,2024-01-01 11:00:00
+1013,3rd,AI&DS,Library,3,2024-01-01 12:00:00
+1014,3rd,AI&DS,Library,2,2024-01-01 13:00:00
+1015,4th,AI&DS,Library,5,2024-01-01 14:00:00
+1016,1st,CSE,Library,1,2024-01-01 15:00:00
+1017,4th,CSE,Cafeteria,2,2024-01-01 16:00:00
+1018,4th,CSE,Sports Center,4,2024-01-01 17:00:00
+1019,4th,ECE,Library,4,2024-01-01 18:00:00
+1020,3rd,Mechanical,Library,3,2024-01-01 19:00:00
+1021,2nd,AI&DS,Cafeteria,3,2024-01-01 20:00:00
+1022,1st,AI&DS,Sports Center,4,2024-01-01 21:00:00
+1023,2nd,ECE,Sports Center,3,2024-01-01 22:00:00
+1024,4th,AI&DS,Cafeteria,1,2024-01-01 23:00:00
+1025,4th,CSE,Cafeteria,3,2024-01-02 00:00:00
+1026,2nd,Mechanical,Sports Center,5,2024-01-02 01:00:00
+1027,2nd,EEE,Library,3,2024-01-02 02:00:00
+1028,2nd,AI&DS,Sports Center,2,2024-01-02 03:00:00
+1029,4th,CSE,Cafeteria,1,2024-01-02 04:00:00
+1030,4th,EEE,Library,2,2024-01-02 05:00:00
+1031,1st,Mechanical,Library,2,2024-01-02 06:00:00
+1032,1st,EEE,Cafeteria,5,2024-01-02 07:00:00
+1033,4th,CSE,Cafeteria,1,2024-01-02 08:00:00
+1034,2nd,EEE,Cafeteria,1,2024-01-02 09:00:00
+1035,2nd,ECE,Sports Center,1,2024-01-02 10:00:00
+1036,1st,EEE,Sports Center,1,2024-01-02 11:00:00
+1037,4th,AI&DS,Library,1,2024-01-02 12:00:00
+1038,1st,AI&DS,Cafeteria,5,2024-01-02 13:00:00
+1039,1st,ECE,Library,3,2024-01-02 14:00:00
+1040,3rd,CSE,Library,2,2024-01-02 15:00:00
+1041,3rd,AI&DS,Library,1,2024-01-02 16:00:00
+1042,3rd,Mechanical,Library,3,2024-01-02 17:00:00
+1043,2nd,AI&DS,Cafeteria,3,2024-01-02 18:00:00
+1044,4th,AI&DS,Library,2,2024-01-02 19:00:00
+1045,4th,CSE,Cafeteria,5,2024-01-02 20:00:00
+1046,4th,EEE,Cafeteria,4,2024-01-02 21:00:00
+1047,4th,AI&DS,Sports Center,4,2024-01-02 22:00:00
+1048,3rd,ECE,Cafeteria,3,2024-01-02 23:00:00
+1049,2nd,EEE,Sports Center,2,2024-01-03 00:00:00
+1050,2nd,Mechanical,Cafeteria,4,2024-01-03 01:00:00
+1051,3rd,CSE,Cafeteria,3,2024-01-03 02:00:00
+1052,2nd,Mechanical,Cafeteria,5,2024-01-03 03:00:00
+1053,3rd,EEE,Sports Center,4,2024-01-03 04:00:00
+1054,4th,EEE,Sports Center,3,2024-01-03 05:00:00
+1055,3rd,EEE,Library,3,2024-01-03 06:00:00
+1056,4th,Mechanical,Sports Center,1,2024-01-03 07:00:00
+1057,4th,EEE,Sports Center,5,2024-01-03 08:00:00
+1058,1st,Mechanical,Sports Center,1,2024-01-03 09:00:00
+1059,3rd,EEE,Sports Center,2,2024-01-03 10:00:00
+1060,1st,ECE,Library,1,2024-01-03 11:00:00
+1061,3rd,EEE,Sports Center,1,2024-01-03 12:00:00
+1062,3rd,Mechanical,Cafeteria,4,2024-01-03 13:00:00
+1063,1st,AI&DS,Cafeteria,3,2024-01-03 14:00:00
+1064,1st,EEE,Sports Center,5,2024-01-03 15:00:00
+1065,3rd,AI&DS,Sports Center,1,2024-01-03 16:00:00
+1066,2nd,ECE,Cafeteria,5,2024-01-03 17:00:00
+1067,4th,CSE,Cafeteria,1,2024-01-03 18:00:00
+1068,1st,ECE,Library,2,2024-01-03 19:00:00
+1069,4th,EEE,Cafeteria,1,2024-01-03 20:00:00
+1070,2nd,AI&DS,Cafeteria,4,2024-01-03 21:00:00
+1071,2nd,AI&DS,Sports Center,3,2024-01-03 22:00:00
+1072,2nd,Mechanical,Cafeteria,2,2024-01-03 23:00:00
+1073,1st,AI&DS,Library,1,2024-01-04 00:00:00
+1074,2nd,Mechanical,Cafeteria,5,2024-01-04 01:00:00
+1075,1st,CSE,Sports Center,2,2024-01-04 02:00:00
+1076,2nd,EEE,Sports Center,2,2024-01-04 03:00:00
+1077,4th,Mechanical,Cafeteria,1,2024-01-04 04:00:00
+1078,4th,CSE,Sports Center,2,2024-01-04 05:00:00
+1079,3rd,AI&DS,Library,5,2024-01-04 06:00:00
+1080,4th,AI&DS,Library,2,2024-01-04 07:00:00
+1081,3rd,CSE,Cafeteria,5,2024-01-04 08:00:00
+1082,4th,AI&DS,Cafeteria,1,2024-01-04 09:00:00
+1083,1st,CSE,Cafeteria,3,2024-01-04 10:00:00
+1084,4th,Mechanical,Sports Center,2,2024-01-04 11:00:00
+1085,3rd,Mechanical,Library,3,2024-01-04 12:00:00
+1086,3rd,CSE,Library,5,2024-01-04 13:00:00
+1087,2nd,Mechanical,Sports Center,2,2024-01-04 14:00:00
+1088,1st,Mechanical,Library,4,2024-01-04 15:00:00
+1089,4th,Mechanical,Cafeteria,3,2024-01-04 16:00:00
+1090,2nd,ECE,Cafeteria,2,2024-01-04 17:00:00
+1091,4th,EEE,Cafeteria,3,2024-01-04 18:00:00
+1092,4th,AI&DS,Library,2,2024-01-04 19:00:00
+1093,2nd,ECE,Cafeteria,1,2024-01-04 20:00:00
+1094,2nd,Mechanical,Sports Center,3,2024-01-04 21:00:00
+1095,2nd,CSE,Sports Center,4,2024-01-04 22:00:00
+1096,2nd,Mechanical,Library,4,2024-01-04 23:00:00
+1097,2nd,EEE,Sports Center,5,2024-01-05 00:00:00
+1098,4th,Mechanical,Sports Center,2,2024-01-05 01:00:00
+1099,2nd,CSE,Library,3,2024-01-05 02:00:00
+1100,1st,EEE,Cafeteria,5,2024-01-05 03:00:00
+1101,3rd,Mechanical,Cafeteria,3,2024-01-05 04:00:00
+1102,2nd,EEE,Cafeteria,2,2024-01-05 05:00:00
+1103,2nd,AI&DS,Library,4,2024-01-05 06:00:00
+1104,4th,AI&DS,Sports Center,1,2024-01-05 07:00:00
+1105,2nd,Mechanical,Cafeteria,4,2024-01-05 08:00:00
+1106,2nd,EEE,Cafeteria,5,2024-01-05 09:00:00
+1107,2nd,CSE,Library,1,2024-01-05 10:00:00
+1108,4th,Mechanical,Cafeteria,5,2024-01-05 11:00:00
+1109,2nd,AI&DS,Library,2,2024-01-05 12:00:00
+1110,3rd,AI&DS,Sports Center,1,2024-01-05 13:00:00
+1111,4th,Mechanical,Library,5,2024-01-05 14:00:00
+1112,3rd,EEE,Library,2,2024-01-05 15:00:00
+1113,4th,AI&DS,Library,4,2024-01-05 16:00:00
+1114,2nd,EEE,Library,2,2024-01-05 17:00:00
+1115,3rd,AI&DS,Sports Center,3,2024-01-05 18:00:00
+1116,4th,AI&DS,Sports Center,2,2024-01-05 19:00:00
+1117,1st,ECE,Cafeteria,2,2024-01-05 20:00:00
+1118,2nd,AI&DS,Sports Center,3,2024-01-05 21:00:00
+1119,4th,CSE,Sports Center,5,2024-01-05 22:00:00
+1120,1st,Mechanical,Cafeteria,5,2024-01-05 23:00:00
+1121,4th,Mechanical,Sports Center,2,2024-01-06 00:00:00
+1122,1st,EEE,Library,3,2024-01-06 01:00:00
+1123,2nd,AI&DS,Library,3,2024-01-06 02:00:00
+1124,3rd,CSE,Cafeteria,4,2024-01-06 03:00:00
+1125,1st,EEE,Cafeteria,5,2024-01-06 04:00:00
+1126,4th,ECE,Cafeteria,1,2024-01-06 05:00:00
+1127,2nd,EEE,Library,5,2024-01-06 06:00:00
+1128,1st,EEE,Sports Center,5,2024-01-06 07:00:00
+1129,4th,AI&DS,Library,4,2024-01-06 08:00:00
+1130,4th,ECE,Cafeteria,1,2024-01-06 09:00:00
+1131,4th,EEE,Sports Center,4,2024-01-06 10:00:00
+1132,1st,CSE,Sports Center,1,2024-01-06 11:00:00
+1133,1st,CSE,Library,2,2024-01-06 12:00:00
+1134,1st,Mechanical,Cafeteria,1,2024-01-06 13:00:00
+1135,3rd,ECE,Library,4,2024-01-06 14:00:00
+1136,1st,ECE,Sports Center,5,2024-01-06 15:00:00
+1137,1st,Mechanical,Library,1,2024-01-06 16:00:00
+1138,1st,EEE,Library,1,2024-01-06 17:00:00
+1139,3rd,ECE,Cafeteria,3,2024-01-06 18:00:00
+1140,1st,CSE,Cafeteria,5,2024-01-06 19:00:00
+1141,4th,CSE,Sports Center,2,2024-01-06 20:00:00
+1142,1st,AI&DS,Library,4,2024-01-06 21:00:00
+1143,4th,ECE,Library,2,2024-01-06 22:00:00
+1144,4th,EEE,Library,5,2024-01-06 23:00:00
+1145,4th,Mechanical,Sports Center,1,2024-01-07 00:00:00
+1146,3rd,Mechanical,Sports Center,1,2024-01-07 01:00:00
+1147,3rd,EEE,Cafeteria,5,2024-01-07 02:00:00
+1148,3rd,AI&DS,Cafeteria,1,2024-01-07 03:00:00
+1149,1st,Mechanical,Cafeteria,1,2024-01-07 04:00:00
+1150,4th,ECE,Library,1,2024-01-07 05:00:00
+1151,3rd,AI&DS,Library,4,2024-01-07 06:00:00
+1152,3rd,ECE,Cafeteria,4,2024-01-07 07:00:00
+1153,1st,CSE,Library,3,2024-01-07 08:00:00
+1154,3rd,AI&DS,Cafeteria,2,2024-01-07 09:00:00
+1155,1st,Mechanical,Sports Center,5,2024-01-07 10:00:00
+1156,2nd,AI&DS,Cafeteria,5,2024-01-07 11:00:00
+1157,3rd,AI&DS,Sports Center,5,2024-01-07 12:00:00
+1158,2nd,AI&DS,Library,3,2024-01-07 13:00:00
+1159,1st,AI&DS,Cafeteria,4,2024-01-07 14:00:00
+1160,4th,ECE,Library,3,2024-01-07 15:00:00
+1161,3rd,CSE,Sports Center,5,2024-01-07 16:00:00
+1162,1st,EEE,Sports Center,2,2024-01-07 17:00:00
+1163,4th,AI&DS,Sports Center,1,2024-01-07 18:00:00
+1164,4th,Mechanical,Library,4,2024-01-07 19:00:00
+1165,2nd,AI&DS,Library,4,2024-01-07 20:00:00
+1166,1st,Mechanical,Library,3,2024-01-07 21:00:00
+1167,4th,ECE,Library,4,2024-01-07 22:00:00
+1168,3rd,Mechanical,Sports Center,5,2024-01-07 23:00:00
+1169,3rd,EEE,Sports Center,5,2024-01-08 00:00:00
+1170,2nd,CSE,Cafeteria,3,2024-01-08 01:00:00
+1171,4th,Mechanical,Cafeteria,5,2024-01-08 02:00:00
+1172,1st,Mechanical,Library,2,2024-01-08 03:00:00
+1173,3rd,CSE,Sports Center,3,2024-01-08 04:00:00
+1174,4th,EEE,Sports Center,2,2024-01-08 05:00:00
+1175,4th,AI&DS,Sports Center,1,2024-01-08 06:00:00
+1176,2nd,Mechanical,Cafeteria,2,2024-01-08 07:00:00
+1177,3rd,CSE,Cafeteria,1,2024-01-08 08:00:00
+1178,3rd,ECE,Sports Center,1,2024-01-08 09:00:00
+1179,1st,CSE,Sports Center,2,2024-01-08 10:00:00
+1180,3rd,ECE,Sports Center,3,2024-01-08 11:00:00
+1181,1st,EEE,Cafeteria,5,2024-01-08 12:00:00
+1182,3rd,AI&DS,Sports Center,5,2024-01-08 13:00:00
+1183,2nd,CSE,Sports Center,1,2024-01-08 14:00:00
+1184,3rd,Mechanical,Library,1,2024-01-08 15:00:00
+1185,1st,EEE,Library,3,2024-01-08 16:00:00
+1186,1st,CSE,Cafeteria,4,2024-01-08 17:00:00
+1187,2nd,Mechanical,Sports Center,2,2024-01-08 18:00:00
+1188,3rd,CSE,Sports Center,1,2024-01-08 19:00:00
+1189,3rd,ECE,Library,5,2024-01-08 20:00:00
+1190,2nd,CSE,Cafeteria,3,2024-01-08 21:00:00
+1191,3rd,CSE,Library,2,2024-01-08 22:00:00
+1192,3rd,CSE,Library,3,2024-01-08 23:00:00
+1193,1st,EEE,Library,2,2024-01-09 00:00:00
+1194,3rd,CSE,Library,2,2024-01-09 01:00:00
+1195,3rd,Mechanical,Sports Center,1,2024-01-09 02:00:00
+1196,2nd,ECE,Sports Center,3,2024-01-09 03:00:00
+1197,2nd,ECE,Library,3,2024-01-09 04:00:00
+1198,4th,CSE,Cafeteria,5,2024-01-09 05:00:00
+1199,1st,EEE,Cafeteria,5,2024-01-09 06:00:00
+1200,3rd,EEE,Cafeteria,1,2024-01-09 07:00:00
+1201,3rd,Mechanical,Cafeteria,1,2024-01-09 08:00:00
+1202,4th,CSE,Library,4,2024-01-09 09:00:00
+1203,3rd,ECE,Sports Center,5,2024-01-09 10:00:00
+1204,1st,EEE,Cafeteria,2,2024-01-09 11:00:00
+1205,4th,CSE,Library,3,2024-01-09 12:00:00
+1206,1st,EEE,Cafeteria,1,2024-01-09 13:00:00
+1207,4th,EEE,Cafeteria,3,2024-01-09 14:00:00
+1208,4th,ECE,Library,3,2024-01-09 15:00:00
+1209,2nd,AI&DS,Sports Center,4,2024-01-09 16:00:00
+1210,1st,Mechanical,Sports Center,5,2024-01-09 17:00:00
+1211,3rd,Mechanical,Library,1,2024-01-09 18:00:00
+1212,3rd,ECE,Sports Center,3,2024-01-09 19:00:00
+1213,1st,EEE,Library,1,2024-01-09 20:00:00
+1214,3rd,CSE,Library,2,2024-01-09 21:00:00
+1215,3rd,EEE,Library,4,2024-01-09 22:00:00
+1216,1st,ECE,Sports Center,2,2024-01-09 23:00:00
+1217,4th,Mechanical,Library,1,2024-01-10 00:00:00
+1218,1st,EEE,Cafeteria,1,2024-01-10 01:00:00
+1219,4th,Mechanical,Sports Center,5,2024-01-10 02:00:00
+1220,3rd,CSE,Sports Center,3,2024-01-10 03:00:00
+1221,3rd,Mechanical,Sports Center,3,2024-01-10 04:00:00
+1222,3rd,Mechanical,Sports Center,2,2024-01-10 05:00:00
+1223,2nd,AI&DS,Cafeteria,4,2024-01-10 06:00:00
+1224,4th,AI&DS,Sports Center,3,2024-01-10 07:00:00
+1225,2nd,AI&DS,Sports Center,5,2024-01-10 08:00:00
+1226,2nd,Mechanical,Library,2,2024-01-10 09:00:00
+1227,1st,ECE,Sports Center,2,2024-01-10 10:00:00
+1228,2nd,Mechanical,Cafeteria,5,2024-01-10 11:00:00
+1229,1st,ECE,Cafeteria,4,2024-01-10 12:00:00
+1230,1st,ECE,Cafeteria,5,2024-01-10 13:00:00
+1231,2nd,AI&DS,Cafeteria,4,2024-01-10 14:00:00
+1232,4th,EEE,Sports Center,5,2024-01-10 15:00:00
+1233,4th,CSE,Sports Center,5,2024-01-10 16:00:00
+1234,4th,AI&DS,Cafeteria,1,2024-01-10 17:00:00
+1235,4th,AI&DS,Cafeteria,2,2024-01-10 18:00:00
+1236,4th,EEE,Sports Center,5,2024-01-10 19:00:00
+1237,2nd,CSE,Cafeteria,5,2024-01-10 20:00:00
+1238,2nd,Mechanical,Library,3,2024-01-10 21:00:00
+1239,3rd,Mechanical,Cafeteria,2,2024-01-10 22:00:00
+1240,4th,AI&DS,Cafeteria,3,2024-01-10 23:00:00
+1241,2nd,CSE,Library,2,2024-01-11 00:00:00
+1242,3rd,AI&DS,Library,3,2024-01-11 01:00:00
+1243,4th,ECE,Sports Center,5,2024-01-11 02:00:00
+1244,1st,AI&DS,Sports Center,5,2024-01-11 03:00:00
+1245,3rd,AI&DS,Library,1,2024-01-11 04:00:00
+1246,2nd,Mechanical,Library,3,2024-01-11 05:00:00
+1247,1st,Mechanical,Sports Center,4,2024-01-11 06:00:00
+1248,1st,Mechanical,Cafeteria,1,2024-01-11 07:00:00
+1249,1st,ECE,Library,3,2024-01-11 08:00:00
+1250,3rd,Mechanical,Sports Center,3,2024-01-11 09:00:00
+1251,2nd,CSE,Cafeteria,1,2024-01-11 10:00:00
+1252,1st,EEE,Library,5,2024-01-11 11:00:00
+1253,4th,CSE,Cafeteria,3,2024-01-11 12:00:00
+1254,1st,CSE,Sports Center,5,2024-01-11 13:00:00
+1255,1st,Mechanical,Library,1,2024-01-11 14:00:00
+1256,3rd,EEE,Cafeteria,5,2024-01-11 15:00:00
+1257,3rd,EEE,Library,2,2024-01-11 16:00:00
+1258,2nd,EEE,Cafeteria,4,2024-01-11 17:00:00
+1259,4th,ECE,Sports Center,3,2024-01-11 18:00:00
+1260,3rd,Mechanical,Sports Center,4,2024-01-11 19:00:00
+1261,1st,EEE,Library,5,2024-01-11 20:00:00
+1262,2nd,ECE,Cafeteria,3,2024-01-11 21:00:00
+1263,1st,AI&DS,Library,5,2024-01-11 22:00:00
+1264,1st,AI&DS,Library,2,2024-01-11 23:00:00
+1265,3rd,ECE,Cafeteria,1,2024-01-12 00:00:00
+1266,2nd,ECE,Cafeteria,3,2024-01-12 01:00:00
+1267,4th,Mechanical,Cafeteria,2,2024-01-12 02:00:00
+1268,4th,Mechanical,Sports Center,2,2024-01-12 03:00:00
+1269,3rd,AI&DS,Library,3,2024-01-12 04:00:00
+1270,3rd,EEE,Library,5,2024-01-12 05:00:00
+1271,2nd,AI&DS,Sports Center,2,2024-01-12 06:00:00
+1272,4th,EEE,Cafeteria,4,2024-01-12 07:00:00
+1273,4th,EEE,Sports Center,2,2024-01-12 08:00:00
+1274,4th,Mechanical,Sports Center,5,2024-01-12 09:00:00
+1275,1st,CSE,Sports Center,5,2024-01-12 10:00:00
+1276,4th,CSE,Library,4,2024-01-12 11:00:00
+1277,1st,ECE,Sports Center,2,2024-01-12 12:00:00
+1278,2nd,Mechanical,Library,5,2024-01-12 13:00:00
+1279,1st,EEE,Library,3,2024-01-12 14:00:00
+1280,2nd,CSE,Library,1,2024-01-12 15:00:00
+1281,4th,EEE,Cafeteria,1,2024-01-12 16:00:00
+1282,4th,CSE,Library,1,2024-01-12 17:00:00
+1283,2nd,CSE,Library,2,2024-01-12 18:00:00
+1284,3rd,CSE,Cafeteria,4,2024-01-12 19:00:00
+1285,2nd,Mechanical,Library,5,2024-01-12 20:00:00
+1286,3rd,AI&DS,Sports Center,3,2024-01-12 21:00:00
+1287,1st,EEE,Sports Center,3,2024-01-12 22:00:00
+1288,1st,Mechanical,Library,2,2024-01-12 23:00:00
+1289,1st,Mechanical,Cafeteria,1,2024-01-13 00:00:00
+1290,4th,Mechanical,Sports Center,2,2024-01-13 01:00:00
+1291,1st,Mechanical,Cafeteria,4,2024-01-13 02:00:00
+1292,3rd,Mechanical,Cafeteria,4,2024-01-13 03:00:00
+1293,1st,ECE,Sports Center,5,2024-01-13 04:00:00
+1294,2nd,EEE,Cafeteria,5,2024-01-13 05:00:00
+1295,2nd,Mechanical,Sports Center,4,2024-01-13 06:00:00
+1296,4th,EEE,Cafeteria,4,2024-01-13 07:00:00
+1297,2nd,ECE,Sports Center,4,2024-01-13 08:00:00
+1298,3rd,ECE,Library,2,2024-01-13 09:00:00
+1299,1st,EEE,Sports Center,4,2024-01-13 10:00:00
+1300,4th,CSE,Sports Center,3,2024-01-13 11:00:00
+1301,1st,AI&DS,Sports Center,1,2024-01-13 12:00:00
+1302,1st,CSE,Sports Center,4,2024-01-13 13:00:00
+1303,3rd,CSE,Cafeteria,1,2024-01-13 14:00:00
+1304,2nd,CSE,Library,2,2024-01-13 15:00:00
+1305,2nd,Mechanical,Sports Center,1,2024-01-13 16:00:00
+1306,1st,ECE,Cafeteria,2,2024-01-13 17:00:00
+1307,4th,CSE,Library,3,2024-01-13 18:00:00
+1308,2nd,ECE,Library,2,2024-01-13 19:00:00
+1309,4th,EEE,Library,2,2024-01-13 20:00:00
+1310,2nd,AI&DS,Library,5,2024-01-13 21:00:00
+1311,4th,EEE,Sports Center,4,2024-01-13 22:00:00
+1312,3rd,EEE,Sports Center,4,2024-01-13 23:00:00
+1313,4th,Mechanical,Cafeteria,3,2024-01-14 00:00:00
+1314,3rd,AI&DS,Cafeteria,3,2024-01-14 01:00:00
+1315,3rd,EEE,Cafeteria,4,2024-01-14 02:00:00
+1316,4th,EEE,Library,5,2024-01-14 03:00:00
+1317,3rd,AI&DS,Library,4,2024-01-14 04:00:00
+1318,1st,AI&DS,Sports Center,5,2024-01-14 05:00:00
+1319,3rd,EEE,Library,3,2024-01-14 06:00:00
+1320,2nd,AI&DS,Library,1,2024-01-14 07:00:00
+1321,4th,EEE,Library,3,2024-01-14 08:00:00
+1322,1st,EEE,Cafeteria,3,2024-01-14 09:00:00
+1323,4th,Mechanical,Cafeteria,2,2024-01-14 10:00:00
+1324,2nd,CSE,Sports Center,2,2024-01-14 11:00:00
+1325,2nd,EEE,Library,2,2024-01-14 12:00:00
+1326,2nd,ECE,Library,2,2024-01-14 13:00:00
+1327,3rd,CSE,Sports Center,5,2024-01-14 14:00:00
+1328,3rd,CSE,Library,4,2024-01-14 15:00:00
+1329,4th,CSE,Library,1,2024-01-14 16:00:00
+1330,4th,Mechanical,Cafeteria,3,2024-01-14 17:00:00
+1331,1st,EEE,Sports Center,5,2024-01-14 18:00:00
+1332,1st,Mechanical,Sports Center,1,2024-01-14 19:00:00
+1333,4th,EEE,Sports Center,5,2024-01-14 20:00:00
+1334,3rd,Mechanical,Sports Center,5,2024-01-14 21:00:00
+1335,2nd,Mechanical,Cafeteria,3,2024-01-14 22:00:00
+1336,4th,ECE,Cafeteria,4,2024-01-14 23:00:00
+1337,1st,Mechanical,Library,2,2024-01-15 00:00:00
+1338,3rd,AI&DS,Library,4,2024-01-15 01:00:00
+1339,4th,ECE,Library,3,2024-01-15 02:00:00
+1340,4th,Mechanical,Library,3,2024-01-15 03:00:00
+1341,3rd,CSE,Cafeteria,3,2024-01-15 04:00:00
+1342,4th,AI&DS,Sports Center,1,2024-01-15 05:00:00
+1343,3rd,AI&DS,Cafeteria,4,2024-01-15 06:00:00
+1344,2nd,AI&DS,Library,4,2024-01-15 07:00:00
+1345,3rd,ECE,Cafeteria,5,2024-01-15 08:00:00
+1346,3rd,Mechanical,Sports Center,5,2024-01-15 09:00:00
+1347,3rd,Mechanical,Sports Center,5,2024-01-15 10:00:00
+1348,4th,CSE,Cafeteria,3,2024-01-15 11:00:00
+1349,4th,CSE,Cafeteria,4,2024-01-15 12:00:00
+1350,3rd,AI&DS,Cafeteria,3,2024-01-15 13:00:00
+1351,4th,CSE,Library,1,2024-01-15 14:00:00
+1352,1st,ECE,Cafeteria,5,2024-01-15 15:00:00
+1353,1st,Mechanical,Cafeteria,3,2024-01-15 16:00:00
+1354,4th,AI&DS,Cafeteria,3,2024-01-15 17:00:00
+1355,4th,CSE,Sports Center,1,2024-01-15 18:00:00
+1356,3rd,ECE,Sports Center,2,2024-01-15 19:00:00
+1357,2nd,ECE,Library,4,2024-01-15 20:00:00
+1358,4th,CSE,Library,2,2024-01-15 21:00:00
+1359,1st,Mechanical,Sports Center,5,2024-01-15 22:00:00
+1360,3rd,CSE,Sports Center,3,2024-01-15 23:00:00
+1361,4th,AI&DS,Sports Center,1,2024-01-16 00:00:00
+1362,1st,CSE,Cafeteria,1,2024-01-16 01:00:00
+1363,1st,ECE,Cafeteria,4,2024-01-16 02:00:00
+1364,2nd,CSE,Sports Center,2,2024-01-16 03:00:00
+1365,3rd,Mechanical,Cafeteria,4,2024-01-16 04:00:00
+1366,3rd,EEE,Cafeteria,3,2024-01-16 05:00:00
+1367,2nd,CSE,Library,4,2024-01-16 06:00:00
+1368,2nd,Mechanical,Sports Center,1,2024-01-16 07:00:00
+1369,3rd,Mechanical,Sports Center,1,2024-01-16 08:00:00
+1370,3rd,ECE,Cafeteria,5,2024-01-16 09:00:00
+1371,4th,Mechanical,Sports Center,5,2024-01-16 10:00:00
+1372,4th,Mechanical,Library,3,2024-01-16 11:00:00
+1373,2nd,Mechanical,Library,2,2024-01-16 12:00:00
+1374,4th,Mechanical,Library,4,2024-01-16 13:00:00
+1375,1st,AI&DS,Sports Center,3,2024-01-16 14:00:00
+1376,4th,AI&DS,Sports Center,5,2024-01-16 15:00:00
+1377,4th,ECE,Sports Center,4,2024-01-16 16:00:00
+1378,1st,CSE,Sports Center,5,2024-01-16 17:00:00
+1379,2nd,Mechanical,Sports Center,4,2024-01-16 18:00:00
+1380,1st,CSE,Library,2,2024-01-16 19:00:00
+1381,4th,CSE,Cafeteria,3,2024-01-16 20:00:00
+1382,2nd,ECE,Library,4,2024-01-16 21:00:00
+1383,4th,Mechanical,Sports Center,1,2024-01-16 22:00:00
+1384,1st,Mechanical,Library,1,2024-01-16 23:00:00
+1385,1st,EEE,Sports Center,4,2024-01-17 00:00:00
+1386,4th,CSE,Sports Center,4,2024-01-17 01:00:00
+1387,3rd,CSE,Library,4,2024-01-17 02:00:00
+1388,3rd,AI&DS,Sports Center,1,2024-01-17 03:00:00
+1389,1st,EEE,Cafeteria,1,2024-01-17 04:00:00
+1390,1st,AI&DS,Sports Center,4,2024-01-17 05:00:00
+1391,3rd,AI&DS,Cafeteria,5,2024-01-17 06:00:00
+1392,3rd,AI&DS,Cafeteria,5,2024-01-17 07:00:00
+1393,4th,ECE,Sports Center,2,2024-01-17 08:00:00
+1394,4th,ECE,Library,3,2024-01-17 09:00:00
+1395,3rd,AI&DS,Cafeteria,5,2024-01-17 10:00:00
+1396,4th,EEE,Library,1,2024-01-17 11:00:00
+1397,4th,CSE,Cafeteria,5,2024-01-17 12:00:00
+1398,2nd,EEE,Sports Center,2,2024-01-17 13:00:00
+1399,4th,Mechanical,Sports Center,2,2024-01-17 14:00:00
+1400,1st,ECE,Cafeteria,3,2024-01-17 15:00:00
+1401,4th,CSE,Sports Center,5,2024-01-17 16:00:00
+1402,4th,CSE,Cafeteria,1,2024-01-17 17:00:00
+1403,3rd,Mechanical,Sports Center,1,2024-01-17 18:00:00
+1404,1st,Mechanical,Library,4,2024-01-17 19:00:00
+1405,4th,AI&DS,Sports Center,1,2024-01-17 20:00:00
+1406,4th,ECE,Library,3,2024-01-17 21:00:00
+1407,2nd,ECE,Sports Center,3,2024-01-17 22:00:00
+1408,4th,EEE,Library,1,2024-01-17 23:00:00
+1409,4th,AI&DS,Sports Center,1,2024-01-18 00:00:00
+1410,2nd,AI&DS,Library,4,2024-01-18 01:00:00
+1411,3rd,AI&DS,Cafeteria,1,2024-01-18 02:00:00
+1412,4th,AI&DS,Cafeteria,4,2024-01-18 03:00:00
+1413,2nd,ECE,Library,4,2024-01-18 04:00:00
+1414,1st,ECE,Sports Center,1,2024-01-18 05:00:00
+1415,3rd,AI&DS,Library,2,2024-01-18 06:00:00
+1416,1st,EEE,Sports Center,2,2024-01-18 07:00:00
+1417,1st,CSE,Cafeteria,4,2024-01-18 08:00:00
+1418,2nd,CSE,Sports Center,1,2024-01-18 09:00:00
+1419,4th,EEE,Cafeteria,2,2024-01-18 10:00:00
+1420,2nd,AI&DS,Sports Center,1,2024-01-18 11:00:00
+1421,2nd,ECE,Sports Center,1,2024-01-18 12:00:00
+1422,2nd,CSE,Sports Center,1,2024-01-18 13:00:00
+1423,2nd,Mechanical,Library,5,2024-01-18 14:00:00
+1424,3rd,Mechanical,Library,1,2024-01-18 15:00:00
+1425,4th,EEE,Cafeteria,5,2024-01-18 16:00:00
+1426,1st,AI&DS,Cafeteria,4,2024-01-18 17:00:00
+1427,1st,CSE,Library,2,2024-01-18 18:00:00
+1428,4th,AI&DS,Cafeteria,2,2024-01-18 19:00:00
+1429,1st,CSE,Library,2,2024-01-18 20:00:00
+1430,4th,EEE,Sports Center,2,2024-01-18 21:00:00
+1431,1st,EEE,Cafeteria,2,2024-01-18 22:00:00
+1432,2nd,Mechanical,Cafeteria,2,2024-01-18 23:00:00
+1433,1st,AI&DS,Library,2,2024-01-19 00:00:00
+1434,4th,Mechanical,Cafeteria,4,2024-01-19 01:00:00
+1435,4th,AI&DS,Cafeteria,1,2024-01-19 02:00:00
+1436,4th,Mechanical,Sports Center,3,2024-01-19 03:00:00
+1437,4th,ECE,Cafeteria,5,2024-01-19 04:00:00
+1438,4th,ECE,Sports Center,3,2024-01-19 05:00:00
+1439,3rd,ECE,Library,3,2024-01-19 06:00:00
+1440,3rd,ECE,Cafeteria,1,2024-01-19 07:00:00
+1441,1st,CSE,Sports Center,1,2024-01-19 08:00:00
+1442,4th,ECE,Library,1,2024-01-19 09:00:00
+1443,1st,EEE,Cafeteria,2,2024-01-19 10:00:00
+1444,4th,EEE,Library,4,2024-01-19 11:00:00
+1445,4th,CSE,Cafeteria,2,2024-01-19 12:00:00
+1446,3rd,ECE,Library,4,2024-01-19 13:00:00
+1447,3rd,ECE,Library,4,2024-01-19 14:00:00
+1448,2nd,ECE,Sports Center,3,2024-01-19 15:00:00
+1449,3rd,Mechanical,Library,3,2024-01-19 16:00:00
+1450,2nd,AI&DS,Cafeteria,4,2024-01-19 17:00:00
+1451,2nd,Mechanical,Cafeteria,4,2024-01-19 18:00:00
+1452,2nd,AI&DS,Sports Center,2,2024-01-19 19:00:00
+1453,2nd,ECE,Cafeteria,2,2024-01-19 20:00:00
+1454,2nd,ECE,Cafeteria,3,2024-01-19 21:00:00
+1455,1st,Mechanical,Cafeteria,1,2024-01-19 22:00:00
+1456,3rd,Mechanical,Library,4,2024-01-19 23:00:00
+1457,2nd,AI&DS,Library,2,2024-01-20 00:00:00
+1458,4th,EEE,Cafeteria,3,2024-01-20 01:00:00
+1459,3rd,AI&DS,Sports Center,2,2024-01-20 02:00:00
+1460,3rd,Mechanical,Library,4,2024-01-20 03:00:00
+1461,2nd,Mechanical,Sports Center,4,2024-01-20 04:00:00
+1462,1st,CSE,Cafeteria,5,2024-01-20 05:00:00
+1463,2nd,Mechanical,Cafeteria,1,2024-01-20 06:00:00
+1464,1st,CSE,Library,5,2024-01-20 07:00:00
+1465,4th,EEE,Cafeteria,3,2024-01-20 08:00:00
+1466,3rd,AI&DS,Library,2,2024-01-20 09:00:00
+1467,4th,AI&DS,Cafeteria,3,2024-01-20 10:00:00
+1468,1st,CSE,Cafeteria,4,2024-01-20 11:00:00
+1469,1st,AI&DS,Library,5,2024-01-20 12:00:00
+1470,4th,Mechanical,Library,5,2024-01-20 13:00:00
+1471,1st,ECE,Library,5,2024-01-20 14:00:00
+1472,4th,CSE,Cafeteria,3,2024-01-20 15:00:00
+1473,3rd,AI&DS,Cafeteria,4,2024-01-20 16:00:00
+1474,4th,CSE,Sports Center,2,2024-01-20 17:00:00
+1475,3rd,CSE,Library,2,2024-01-20 18:00:00
+1476,4th,ECE,Cafeteria,3,2024-01-20 19:00:00
+1477,1st,Mechanical,Cafeteria,5,2024-01-20 20:00:00
+1478,4th,CSE,Library,1,2024-01-20 21:00:00
+1479,1st,AI&DS,Sports Center,3,2024-01-20 22:00:00
+1480,4th,EEE,Library,3,2024-01-20 23:00:00
+1481,4th,CSE,Sports Center,4,2024-01-21 00:00:00
+1482,2nd,CSE,Cafeteria,2,2024-01-21 01:00:00
+1483,1st,ECE,Sports Center,3,2024-01-21 02:00:00
+1484,2nd,Mechanical,Cafeteria,3,2024-01-21 03:00:00
+1485,1st,EEE,Library,5,2024-01-21 04:00:00
+1486,2nd,AI&DS,Library,5,2024-01-21 05:00:00
+1487,3rd,EEE,Library,1,2024-01-21 06:00:00
+1488,4th,AI&DS,Sports Center,4,2024-01-21 07:00:00
+1489,1st,Mechanical,Cafeteria,1,2024-01-21 08:00:00
+1490,1st,AI&DS,Library,5,2024-01-21 09:00:00
+1491,4th,ECE,Library,2,2024-01-21 10:00:00
+1492,1st,ECE,Cafeteria,5,2024-01-21 11:00:00
+1493,1st,ECE,Library,4,2024-01-21 12:00:00
+1494,2nd,ECE,Cafeteria,5,2024-01-21 13:00:00
+1495,1st,EEE,Cafeteria,4,2024-01-21 14:00:00
+1496,3rd,Mechanical,Cafeteria,4,2024-01-21 15:00:00
+1497,3rd,AI&DS,Cafeteria,4,2024-01-21 16:00:00
+1498,4th,AI&DS,Cafeteria,4,2024-01-21 17:00:00
+1499,1st,ECE,Sports Center,4,2024-01-21 18:00:00
+1500,4th,ECE,Library,2,2024-01-21 19:00:00

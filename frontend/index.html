@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Pulse | Advanced Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Campus Pulse</h2>
+        <p>Analytics</p>
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+            <h1>Student Satisfaction Analytics</h1>
+        </header>
+
+        <!-- KPI SECTION -->
+        <section class="kpi">
+            <div class="kpi-card">
+                <span>Overall Avg</span>
+                <h2 id="overallAvg">--</h2>
+            </div>
+            <div class="kpi-card">
+                <span>Best Facility</span>
+                <h2 id="bestFacility">--</h2>
+            </div>
+            <div class="kpi-card">
+                <span>Worst Facility</span>
+                <h2 id="worstFacility">--</h2>
+            </div>
+            <div class="kpi-card">
+                <span>Total Responses</span>
+                <h2 id="totalCount">--</h2>
+            </div>
+        </section>
+
+        <!-- OVERALL COMPARISON -->
+        <section class="chart-card full">
+            <h3>Average Satisfaction by Facility</h3>
+            <canvas id="overallBar"></canvas>
+        </section>
+
+        <!-- FACILITY DASHBOARDS -->
+        <section class="charts-grid">
+            <div class="chart-card">
+                <h3>📚 Library Satisfaction</h3>
+                <canvas id="libraryChart"></canvas>
+            </div>
+
+            <div class="chart-card">
+                <h3>🏠 Hostel Satisfaction</h3>
+                <canvas id="hostelChart"></canvas>
+            </div>
+
+            <div class="chart-card">
+                <h3>🏀 Sports Center Satisfaction</h3>
+                <canvas id="sportsChart"></canvas>
+            </div>
+        </section>
+
+        <!-- TREND -->
+        <section class="chart-card full">
+            <h3>Year-wise Satisfaction Trend</h3>
+            <canvas id="yearChart"></canvas>
+        </section>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
